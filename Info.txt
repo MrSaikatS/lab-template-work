@@ -1,1 +1,1 @@
-Live Url : https://lab-template-work.netlify.app/
+Live Url (Netlify) : https://lab-template-work.netlify.app/
