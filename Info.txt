@@ -2,3 +2,4 @@ Live Url  : https://lab-template-work.netlify.app/
 
 
 Demo Url : https://demo-work-html.netlify.app/
+Live Url (Netlify) : https://lab-template-work.netlify.app/
