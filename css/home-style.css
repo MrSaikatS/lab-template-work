@@ -39,3 +39,42 @@
   font-weight: bolder;
   font-size: 35px;
 }
+.popular-test {
+  background-color: #04345c;
+  padding-left: 140px;
+  padding-right: 140px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+}
+.popular-test h2 {
+  color: #e04420;
+  padding-bottom: 10px;
+}
+.popular-test h5 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.popular-test .left-col {
+  padding-left: 200px;
+}
+.popular-test .left-col .form-select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px !important;
+  font-weight: 700;
+}
+
+.popular-test .right-col {
+  padding-right: 200px;
+}
+.popular-test .right-col .form-select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px !important;
+  font-weight: 700;
+}
+.popular-test .right-col-tow {
+  padding-left: 0;
+}
