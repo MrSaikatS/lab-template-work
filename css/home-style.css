@@ -1,0 +1,41 @@
+.come-test h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 70px;
+  color: #04345c;
+}
+.come-test {
+  margin-top: 50px;
+  padding-left: 140px;
+}
+.come-test .left-col {
+  padding-right: 70px;
+  color: rgb(104, 98, 98);
+}
+.come-test .left-col .fast-p {
+  margin-bottom: 30px;
+}
+.come-test .left-col h5 {
+  color: #da0606;
+}
+.come-test .right-col .w-full {
+  width: 70%;
+  padding-left: 40px;
+}
+
+.Connected {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.Connected .left-col {
+  padding-left: 240px;
+  padding-right: 50px;
+}
+.Connected .left-col .w-full {
+  width: 80%;
+}
+.Connected .right-col h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
