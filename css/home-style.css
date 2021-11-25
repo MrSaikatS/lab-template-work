@@ -1,3 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  position: relative;
+  background-image: linear-gradient(90deg, #04345c 0%, #e04420 50%);
+  min-height: 70vh;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.banner .right-col img {
+  width: 110%;
+  height: 100%;
+}
+.banner .left-col {
+  padding-top: 90px;
+  color: #fff;
+}
+.banner .left-col h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.banner .left-col .buttonn {
+  margin-top: 50px !important;
+  padding: 15px 40px 15px 40px;
+  border-radius: 50px !important;
+}
+.banner .left-col .buttonn a {
+  text-decoration: none;
+  color: black;
+}
+.custom-shape-divider-bottom-1637821140 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1637821140 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 170px;
+}
+
+.custom-shape-divider-bottom-1637821140 .shape-fill {
+  fill: #ffffff;
+}
 .come-test h1 {
   font-weight: bolder;
   text-align: center;
@@ -7,11 +61,12 @@
 }
 .come-test {
   margin-top: 50px;
-  padding-left: 140px;
 }
+
 .come-test .left-col {
   padding-right: 70px;
   color: rgb(104, 98, 98);
+  padding-left: 140px;
 }
 .come-test .left-col .fast-p {
   margin-bottom: 30px;
@@ -41,8 +96,7 @@
 }
 .popular-test {
   background-color: #04345c;
-  padding-left: 140px;
-  padding-right: 140px;
+
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
