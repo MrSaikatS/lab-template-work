@@ -179,3 +179,30 @@
 .Specialities-item-tow {
   padding-top: 40px;
 }
+.Our-Popular-Test .left-col {
+  background-color: #04345c;
+  padding-top: 50px;
+}
+.Our-Popular-Test .left-col h2 {
+  padding-left: 50px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.Our-Popular-Test .left-col .left-col-item img {
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+.Our-Popular-Test .left-col .left-col-item {
+  text-align: center;
+}
+.Our-Popular-Test .left-col .left-col-item h4 {
+  color: #e04420;
+}
+.Our-Popular-Test .left-col .left-col-item img:hover {
+  transform: scale(1.1);
+}
+.Our-Popular-Test .left-col .left-col-2nd {
+  margin-top: 30px;
+}
