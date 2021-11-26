@@ -24,12 +24,14 @@
 }
 .banner .left-col .buttonn {
   margin-top: 50px !important;
-  padding: 15px 40px 15px 40px;
+  padding: 13px 40px 13px 40px;
   border-radius: 50px !important;
 }
 .banner .left-col .buttonn a {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+  font-weight: 500;
 }
 .custom-shape-divider-bottom-1637821140 {
   position: absolute;
@@ -99,7 +101,6 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-bottom: 80px;
 }
 .popular-test h2 {
   color: #e04420;
@@ -130,4 +131,51 @@
 }
 .popular-test .right-col-tow {
   padding-left: 0;
+}
+
+.Our-Specialities {
+  background-color: #edf9f4;
+  padding-top: 60px;
+  font-weight: bolder;
+  padding-bottom: 60px;
+}
+
+.Our-Specialities .left-col h2 {
+  padding-bottom: 15px;
+  color: #e04420;
+}
+.Our-Specialities .left-col p {
+  font-size: 18px;
+  color: #585c5f;
+}
+.Specialities-item {
+  background-color: #fff;
+  padding: 35px;
+  box-shadow: -15.849px 13.777px 36px 0px rgba(91, 101, 118, 0.15);
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.Specialities-item:hover {
+  transform: scale(1.1);
+}
+.Specialities-item a {
+  background-color: rgb(245, 158, 143);
+  padding: 13px 10px;
+  border-radius: 5px;
+}
+.Specialities-item a i {
+  color: #04345c;
+  font-size: 22px;
+}
+
+.Specialities-item h4 {
+  padding-top: 30px;
+  color: #04345c;
+}
+.Specialities-item p {
+  font-size: 15px;
+  color: #585c5f;
+}
+.Specialities-item-tow {
+  padding-top: 40px;
 }
