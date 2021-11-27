@@ -4,11 +4,17 @@
 }
 
 /* navbar */
+<<<<<<< HEAD
+=======
+.navbar {
+  width: 100% !important;
+}
+>>>>>>> 9eaf0ec5dde9e276fbc6a41e2b4c238f1ac8dd41
 .navbar-brand {
   width: 250px;
 }
 .navbar-brand img {
-  width: 60%;
+  width: 50%;
 }
 #home-menu {
   height: 40px;
