@@ -3,7 +3,7 @@
     text-align: center;
     padding-left: 5px;
     padding-right: 15px;
-    height: 600px;
+    height: auto;
   }
   .banner .left-col {
     padding-top: 10px;
@@ -26,7 +26,7 @@
   }
 
   .banner .right-col img {
-    width: 75%;
+    width: 80%;
   }
   .custom-shape-divider-bottom-1637821140 svg {
     width: calc(136% + 1.3px);
@@ -178,6 +178,9 @@
   .Specialities-item-tow {
     padding-top: 0px;
   }
+  .Our-Popular-Test .img img {
+    width: 100%;
+  }
   .Our-Popular-Test .left-col h2 {
     text-align: center;
     color: #fff;
@@ -188,5 +191,8 @@
   .Our-Popular-Test .left-col .left-col-item h4 {
     color: #e04420;
     padding-bottom: 20px;
+  }
+  .Our-Popular-Test .left-col {
+    text-align: center;
   }
 }
