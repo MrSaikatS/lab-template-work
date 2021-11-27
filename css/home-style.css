@@ -3,6 +3,10 @@
   padding: 0;
 }
 /* navbar */
+.navbar {
+  background-color: #fff;
+  box-shadow: rgba(91, 101, 118, 0.15);
+}
 .navbar-brand {
   width: 250px;
 }
