@@ -94,6 +94,7 @@
 .Connected .right-col h1 {
   font-weight: bolder;
   font-size: 35px;
+  color: #04345c;
 }
 .popular-test {
   background-color: #04345c;
@@ -113,6 +114,10 @@
 .popular-test .left-col {
   padding-left: 200px;
 }
+.popular-test .left-col h4 {
+  text-align: left !important;
+  color: #fff;
+}
 .popular-test .left-col .form-select {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -122,6 +127,10 @@
 
 .popular-test .right-col {
   padding-right: 200px;
+}
+.popular-test .right-col h4 {
+  text-align: left !important;
+  color: #fff;
 }
 .popular-test .right-col .form-select {
   padding-top: 10px;
