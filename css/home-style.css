@@ -237,11 +237,11 @@
 
 .Our-Popular-Test {
   background-color: #04345c;
+  margin-bottom: 20px;
 }
 .Our-Popular-Test .left-col {
   background-color: #04345c;
   padding-top: 50px;
-  
 }
 .Our-Popular-Test .left-col h2 {
   padding-left: 50px;
@@ -266,4 +266,40 @@
 .Our-Popular-Test .left-col .left-col-2nd {
   margin-top: 30px;
 }
-*/
+
+.reviews-from {
+  position: relative;
+  background-color: #da0606;
+}
+.custom-shape-divider-top-1638076539 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1638076539 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 178px;
+}
+
+.custom-shape-divider-top-1638076539 .shape-fill {
+  fill: #ffffff;
+}
+
+.reviews-from .reviews-contain {
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 200px;
+  color: #fff;
+}
+.reviews-from .reviews-contain h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
