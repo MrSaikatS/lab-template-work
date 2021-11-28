@@ -263,3 +263,25 @@
 .Our-Popular-Test .left-col .left-col-2nd {
   margin-top: 30px;
 }
+/* footer */
+.footer {
+  color: #fff;
+  background-color: #00111f;
+}
+.footer img {
+  width: 100%;
+}
+.footer #call {
+  font-size: 13px;
+  color: #dad9d9;
+  letter-spacing: 0.5px;
+}
+.footer #num {
+  font-size: 30px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .footer img {
+    display: none;
+  }
+}
