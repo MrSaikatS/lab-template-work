@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .banner {
     text-align: center;
     padding-left: 5px;
@@ -121,26 +121,9 @@
   }
 
   .Specialities-item {
-    transition: all 0.5s;
     margin-bottom: 10px;
   }
-  .Specialities-item:hover {
-    transform: scale(1.1);
-  }
-  .Specialities-item a {
-    padding: 13px 10px;
-    border-radius: 5px;
-  }
-  .Specialities-item a i {
-    font-size: 22px;
-  }
 
-  .Specialities-item h4 {
-    padding-top: 30px;
-  }
-  .Specialities-item p {
-    font-size: 15px;
-  }
   .Specialities-item-tow {
     padding-top: 0px;
   }
