@@ -289,7 +289,9 @@
 .custom-shape-divider-top-1638076539 .shape-fill {
   fill: #ffffff;
 }
-
+.reviews-from {
+  padding-bottom: 50px;
+}
 .reviews-from .reviews-contain {
   text-align: center;
   padding-left: 350px;
@@ -301,6 +303,36 @@
   font-size: 45px;
   font-weight: bolder;
   padding-bottom: 10px;
+}
+.reviews-from hr {
+  color: #fff;
+  height: 3px;
+  margin-top: 30px;
+}
+.reviews-from .padding {
+  padding-top: 50px;
+}
+.review-card {
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.review-card ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.review-card ul li {
+  padding-right: 10px;
+}
+.review-card ul li i {
+  color: rgb(0, 206, 86);
+}
+.review-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 /* why trust us? */
 #scroll:hover {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
