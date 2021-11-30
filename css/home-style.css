@@ -10,6 +10,9 @@
 .navbar-brand img {
   width: 50%;
 }
+.navbar-toggler {
+  color: #04345c;
+}
 #home-menu {
   height: 40px;
   width: 70px;
