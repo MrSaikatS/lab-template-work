@@ -101,6 +101,7 @@
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border: none;
 }
 .contain .card .card-body {
   border-radius: 30px;
@@ -165,11 +166,118 @@
 .working .card {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: none;
 }
 .working .card img {
   border-radius: 10px 10px 0 0;
 }
-
+.working a i {
+  background-color: rgb(233, 229, 229);
+  padding: 19px 17px 19px 17px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.working h3 {
+  color: #04345c;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.working P {
+  font-size: 18px;
+}
+.working .left-col {
+  padding-top: 40px;
+}
+.company {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.company .left-col img {
+  width: 110%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.company .right-col {
+  padding-top: 80px;
+}
+.company .right-col a i {
+  background-color: #04345c;
+  padding: 25px 21px 23px 21px;
+  border-radius: 50%;
+  color: #e04420;
+  font-size: 22px;
+  box-shadow: rgba(49, 46, 46, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.company .right-col ul li {
+  list-style: none;
+}
+.company .right-col ul {
+  padding-left: 0;
+}
+.company .right-col ul li i {
+  background-color: #04345c;
+  padding: 19px 17px 19px 17px;
+  border-radius: 50%;
+  color: #e04420;
+  font-size: 18px;
+  box-shadow: rgba(49, 46, 46, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 20px;
+  text-align: center;
+}
+.company .right-col ul li span {
+  padding-left: 9px;
+}
+.company .right-col h2 {
+  color: #04345c;
+}
+.our-heroes {
+  text-align: center;
+}
+.our-heroes p {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.our-heroes .card {
+  align-items: center;
+  border: none;
+  padding-top: 10px;
+}
+.our-heroes .card:hover {
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.our-heroes .card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.our-heroes .card .card-body ul {
+  display: flex;
+  padding-left: 0;
+}
+.our-heroes .card .card-body ul li {
+  list-style: none;
+  padding-right: 15px;
+}
+.our-heroes .card .card-body ul li i {
+  background-color: #04345c;
+  padding: 13px 13px 13px 13px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 15px;
+  box-shadow: rgba(49, 46, 46, 0.16) 0px 3px 6px,
+    rgba(24, 23, 23, 0.23) 0px 3px 6px;
+}
+.Build-something {
+  margin-top: 80px;
+}
 /* footer */
 .footer {
   color: #fff;
