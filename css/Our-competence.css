@@ -277,6 +277,27 @@
 }
 .Build-something {
   margin-top: 80px;
+  background-color: #04345c;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.Build-something .pra {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.Build-something i {
+  background-color: #ffffff;
+  padding: 15px 19px 15px 19px;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-bottom: 20px;
 }
 /* footer */
 .footer {
