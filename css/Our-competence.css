@@ -90,13 +90,17 @@
 }
 .contain {
   background-color: rgb(149, 184, 172);
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
 .contain .padding {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 130px;
 }
 .contain .card {
   border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .contain .card .card-body {
   border-radius: 30px;
@@ -137,6 +141,35 @@
   padding-left: 10px;
   font-size: 16px;
 }
+
+.working .card .card-body {
+  border-radius: 0 0 10px 10px;
+  background-color: none;
+  margin-top: 0px;
+  padding-top: 35px;
+  padding: 25px;
+  background-color: #e04420;
+  color: #fff;
+}
+.working .card .card-body p {
+  text-align: left;
+  padding-left: 0 !important;
+}
+.working .card .card-body h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.working {
+  margin-bottom: 30px;
+}
+.working .card {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.working .card img {
+  border-radius: 10px 10px 0 0;
+}
+
 /* footer */
 .footer {
   color: #fff;
