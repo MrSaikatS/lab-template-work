@@ -58,7 +58,8 @@
 }
 .banner .right-col img {
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 .banner .left-col {
   padding-top: 90px;
@@ -67,6 +68,7 @@
 .banner .left-col h1 {
   font-weight: bolder;
   font-size: 65px;
+  margin-top: 30px;
 }
 .custom-shape-divider-bottom-1637821140 {
   position: absolute;
