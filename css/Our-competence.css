@@ -299,6 +299,27 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin-bottom: 20px;
 }
+.Complete-form {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.Complete-form .left-col {
+  background-color: rgb(144, 156, 156);
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+}
+.Complete-form .left-col h6 {
+  padding-bottom: 30px;
+}
+.Complete-form .left-col .button {
+  text-align: center;
+  padding-top: 20px;
+}
+.Complete-form .left-col .button .button-padding {
+  background-color: #00111f;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+}
 /* footer */
 .footer {
   color: #fff;
