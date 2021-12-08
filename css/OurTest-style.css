@@ -1,0 +1,229 @@
+/* navbar */
+.navbar-brand {
+  width: 250px;
+}
+.navbar-brand img {
+  width: 50%;
+}
+.navbar-toggler {
+  color: #04345c;
+}
+#home-menu {
+  height: 40px;
+  width: 70px;
+  background-color: #04345c;
+  color: #fff;
+}
+.nav-link {
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+.nav-link:hover {
+  background-color: #04345c;
+  border-radius: 6px;
+  color: #fff;
+}
+.dropdown:hover .dropdown-menu {
+  background-color: #04345c;
+  /* color: #fff; */
+}
+.dropdown-item {
+  color: #fff;
+  font-weight: 600;
+}
+.dropdown-menu {
+  width: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .navbar-brand img {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+.banner {
+  position: relative;
+  background-image: linear-gradient(90deg, #04345c 0%, #e04420 50%);
+  height: auto;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+.banner .right-col img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.banner .left-col {
+  padding-top: 14s0px;
+  color: #fff;
+}
+.banner .left-col h1 {
+  font-weight: bolder;
+  font-size: 65px;
+}
+.custom-shape-divider-bottom-1637821140 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1637821140 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 170px;
+}
+
+.custom-shape-divider-bottom-1637821140 .shape-fill {
+  fill: #fffdfd;
+}
+
+.contain {
+  background-color: rgba(230, 230, 230, 0.582);
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.contain .left-col {
+  background-color: #fff;
+  padding-top: 60px;
+}
+.contain
+  .left-col
+  .accordion
+  .accordion-item
+  .accordion-header
+  .accordion-button {
+  background-color: #04345c !important;
+  color: #fff !important;
+}
+.contain
+  .left-col
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  h6 {
+  color: #fff !important;
+  background-color: #e04420;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contain
+  .left-col
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  h6:hover {
+  background-color: #04345c;
+}
+.contain .right-col {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-left: 60px;
+}
+.contain .right-col h6 a {
+  text-decoration: none;
+  color: black;
+}
+.contain .right-col .right-col-itam {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.contain .right-col .right-col-itam img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.contain .right-col h1 {
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.contain .right-col p {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.contain .right-col h6 {
+  padding-top: 30px;
+}
+.contain .right-col .reviws ul {
+  list-style: none;
+  display: flex;
+  padding-left: 5px;
+  padding-bottom: 40px;
+}
+.contain .right-col .reviws ul li {
+  padding-right: 10px;
+}
+.contain .right-col .reviws ul li i {
+  color: #e04420;
+}
+.contain .right-col .reviws ul .bg-g i {
+  color: rgba(128, 128, 128, 0.63);
+}
+.contain .right-col h2 {
+  padding-bottom: 10px;
+}
+.contain .right-col .padding-b {
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.contain .right-col .button {
+  padding-top: 30px;
+}
+.contain .right-col .button button {
+  border-radius: 30px;
+  font-size: 20px !important;
+  margin-bottom: 20px;
+}
+/* footer */
+.footer {
+  color: #fff;
+  background-color: #00111f;
+}
+.footer img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .footer img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    padding-bottom: 80px;
+    padding-top: 60px;
+  }
+  .banner .right-col img {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .banner .left-col h1 {
+    font-size: 40px;
+  }
+  .banner .left-col {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  .custom-shape-divider-bottom-1637821140 svg {
+    width: calc(136% + 1.3px);
+    height: 67px;
+  }
+  .contain .right-col {
+    margin-left: 0px;
+  }
+}
