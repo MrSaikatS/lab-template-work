@@ -1,471 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/home-style.css" />
-    <title>About Us | Laboratory</title>
-    <style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/home-style.css" />
+  <title>About Us | Laboratory</title>
+  <style>
     @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@700&family=Rubik:wght@600;700&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@700&family=Rubik:wght@600;700&family=Sacramento&display=swap');
-      .vission-txt{
-           font-family: 'Murecho', sans-serif;
-           background: linear-gradient(to right, #f32170,
-                    #ff69ff, #5affe4, #fff7b2);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-      }
-      .vission-bg {
-  background-color: #04345c;
-  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
-}
+    @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@700&family=Rubik:wght@600;700&family=Sacramento&display=swap');
 
-    </style>
-  </head>
-  <body>
-<!-- Navbar Starts -->
-<nav class="navbar navbar-expand-lg p-2 fixed-top shadow p-3 mb-5 bg-body  rounded">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""
-    /></a>
-    <button
-      class="navbar-toggler border"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse justify-content-lg-center"
-      id="navbarNavDropdown"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a
-            class="nav-link active rounded-3 mx-2 text-center"
-            id="home-menu"
-            aria-current="page"
-            href="index.html"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle mx-2"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            About GDDL
-          </a>
-          <ul
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li><a class="dropdown-item" href="our-journey.html">Our Journey</a></li>
-            <li><a class="dropdown-item" href="our-promise.html">Our Promise</a></li>
-            <li><a class="dropdown-item" href="our-competence.html">Our Competence</a></li>
-            <li><a class="dropdown-item" href="our-credential.html">Our Credentials</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle mx-2"
-            href="our-test.html"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Our Test
-          </a>
-          <ul
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li>
-              <a class="dropdown-item" href="#">Dengue Detection</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Zikavirus Detection</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Malaria Detection</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Drug-resistant</br>Malaria</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1" href="find-gddl-labs.html">Find GDDL Lab</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1" href="media-coverage.html">Media Coverage</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle mx-2"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Resources
-          </a>
-          <ul
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-            <li><a class="dropdown-item" href="knowledge-hub.html">Knowledge Hub</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle mx-2"
-            href="careers.html"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Carrers
-          </a>
-          <ul
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li><a class="dropdown-item" href="#">Current Opening</a></li>
-            <li><a class="dropdown-item" href="#">Apply Now</a></li>
-          </ul>
-        </li>
-      </ul>
+    .vission-txt {
+      font-family: 'Murecho', sans-serif;
+      background: linear-gradient(to right, #f32170,
+          #ff69ff, #5affe4, #fff7b2);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    .vission-bg {
+      background-color: #04345c;
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar Starts -->
+  <nav class="navbar navbar-expand-lg p-2 fixed-top shadow p-3 mb-5 bg-body  rounded">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+      <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active rounded-3 mx-2 text-center" id="home-menu" aria-current="page"
+              href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About GDDL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="our-journey.html">Our Journey</a></li>
+              <li><a class="dropdown-item" href="our-promise.html">Our Promise</a></li>
+              <li><a class="dropdown-item" href="our-competence.html">Our Competence</a></li>
+              <li><a class="dropdown-item" href="our-credential.html">Our Credentials</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="our-test.html" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Our Test
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">Dengue Detection</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Zikavirus Detection</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Malaria Detection</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Drug-resistant</br>Malaria</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-1" href="find-gddl-labs.html">Find GDDL Lab</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-1" href="media-coverage.html">Media Coverage</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="knowledge-hub.html">Knowledge Hub</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="careers.html" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Carrers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Current Opening</a></li>
+              <li><a class="dropdown-item" href="#">Apply Now</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Ends -->
+
+  <!-- hero Starts -->
+  <div class="banner mt-lg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-7 left-col">
+          <h1 class="fs-1" style="font-family: 'Murecho', sans-serif;">Our Promise</h1>
+          <p class="fs-5 lh-base" style="color: #e7e7e7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            iste quaerat quos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis deserunt numquam
+            consequuntur?
+          </p>
+        </div>
+        <div class="col-5 right-col">
+          <img src="img/undraw_healthy_lifestyle_-6-tyl.svg" alt="" />
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1637821140">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
     </div>
   </div>
-</nav>
-<!-- Navbar Ends -->
+  <!-- hero ends -->
 
-<!-- hero Starts -->
-   <div class="banner mt-lg-5">
-      <div class="container">
+  <!-- GDDL Vission Starts -->
+  <section class="vission my-5">
+    <div class="vission text-center">
+      <div class="vission-body vission-bg p-xl-5">
+        <div class="vission-area p-3">
+          <h5 class="vission-title vission-txt fs-1">GDDL Vision</h5>
+          <p class="vission-text text-light p-3 fs-5">“A Caring Mission
+            with a Global Vision to serve the world with Accessible and Affordable
+            Quality Healthcare. To become the first choice of healthcare partner for
+            individuals, doctors, & medical institutions.”.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- GDDL Vission ends -->
+
+  <!-- GDDL Mission Starts -->
+  <div class="mission containre">
+    <div class=" text-center my-5 fs-1" style="font-family: 'Murecho', sans-serif;color:rgb(61, 61, 61)">
+      GDDL Mission 2030
+    </div>
+    <div class="row justify-content-center m-1">
+      <div class="col-md-3 m-2">
         <div class="row">
-          <div class="col-7 left-col">
-            <h1 class="fs-1"  style="font-family: 'Murecho', sans-serif;">Our Promise</h1>
-            <p class="fs-5 lh-base" style="color: #e7e7e7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste quaerat quos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis deserunt numquam consequuntur?
-            </p>
+          <div class="col-3"><img src="img/service-excellence.png" class="flex-shrink-0" alt="" height="50px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Service Excellence</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              Establish Aster Labs as one of the most trusted diagnostics service providers in India, through the
+              creation of holistic healthcare experiences.
+            </div>
           </div>
-          <div class="col-5 right-col">
-            <img src="img/undraw_healthy_lifestyle_-6-tyl.svg" alt="" />
+        </div>
+      </div>
+      <div class="col-md-3 m-2">
+        <div class="row">
+          <div class="col-3"><img src="img/people-management.png" class="flex-shrink-0" alt="" height="40px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">People Management</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              Be among the Global Best Employer by 2030 where every Asterian finds purpose and aspires to be the best in
+              providing care for our customers.
+            </div>
           </div>
         </div>
-        <div class="custom-shape-divider-bottom-1637821140">
-          <svg
-            
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
+      </div>
+      <div class="col-md-3 m-2">
+        <div class="row">
+          <div class="col-3"><img src="img/business-performance.png" class="flex-shrink-0" alt="" height="40px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Business Performance</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              Become one among the 5 most valued diagnostics companies in the India with the growth strategy of
+              20:20:20.
+            </div>
+          </div>
         </div>
       </div>
     </div>
-<!-- hero ends -->
-
-<!-- GDDL Vission Starts -->
- <section class="vission my-5">
- <div class="vission text-center">
-  <div class="vission-body vission-bg p-xl-5">
-    <div class="vission-area p-3">
-    <h5 class="vission-title vission-txt fs-1">GDDL Vision</h5>
-    <p class="vission-text text-light p-3 fs-5">“A Caring Mission 
-      with a Global Vision to serve the world with Accessible and Affordable
-       Quality Healthcare. To become the first choice of healthcare partner for
-        individuals, doctors, & medical institutions.”.</p>
+    <div class="row justify-content-center m-1">
+      <div class="col-md-3 m-2">
+        <div class="row">
+          <div class="col-3"><img src="img/clinical-excellence.png" class="flex-shrink-0" alt="" height="50px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Clinical Excellence</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              While establishing several Centres of Clinical Excellence across. Our mission is to establish Aster Labs
+              as the most reliable name in the Diagnostics industry by 2030.
+            </div>
+          </div>
         </div>
-   </div>
-  </div>
-</section>
-<!-- GDDL Vission ends -->
+      </div>
+      <div class="col-md-3 m-2">
+        <div class="row">
+          <div class="col-3"><img src="img/technology.png" class="flex-shrink-0" alt="" height="50px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Technology, Digital Transformation &
+              Innovation</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              Be one of the most technologically driven diagnostic companies to provide seamless omni-channel patient
+              experience across the geographies through Innovation by adopting state of the art business models for
+              Digital Transformation
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 m-2">
+        <div class="row">
+          <div class="col-3"><img src="img/brand-equity-community-connect.png" class="flex-shrink-0" alt=""
+              height="40px" /></div>
+          <div class="col-9">
+            <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Brand Equity & Community Connect</h5>
+            <div class="mission-text" style="color: rgb(107, 107, 107);">
+              Be one among the Pan India recognized healthcare brands and the most preferred provider in markets that we
+              operate through patient trust and ambassadorship.
+            </div>
+          </div>
+        </div>
+      </div>
 
-<!-- GDDL Mission Starts -->
-<div class="mission containre">
-  <div class=" text-center my-5 fs-1" style="font-family: 'Murecho', sans-serif;color:rgb(61, 61, 61)">
-    GDDL Mission 2030
-  </div> 
-   <div class="row justify-content-center m-1">
-    <div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/service-excellence.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="50px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Service Excellence</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-           Establish Aster Labs as one of the most trusted diagnostics service providers in India, through the creation of holistic healthcare experiences.
-         </div>
-      </div>
     </div>
-  </div>
-<div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/people-management.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="40px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">People Management</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-           Be among the Global Best Employer by 2030 where every Asterian finds purpose and aspires to be the best in providing care for our customers.
-         </div>
-      </div>
-    </div>
-  </div>
-<div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/business-performance.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="40px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Business Performance</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-          Become one among the 5 most valued diagnostics companies in the India with the growth strategy of 20:20:20.
-         </div>
-      </div>
-    </div>
-  </div>
- </div>
-<div class="row justify-content-center m-1">
-  <div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/clinical-excellence.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="50px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Clinical Excellence</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-           While establishing several Centres of Clinical Excellence across. Our mission is to establish Aster Labs as the most reliable name in the Diagnostics industry by 2030.
-         </div>
-      </div>
-    </div>
-  </div>
-<div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/technology.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="50px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Technology, Digital Transformation & Innovation</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-           Be one of the most technologically driven diagnostic companies to provide seamless omni-channel patient experience across the geographies through Innovation by adopting state of the art business models for Digital Transformation
-         </div>
-      </div>
-    </div>
-  </div>
-<div class="col-md-3 m-2">
-    <div class="row">
-      <div class="col-3"><img
-                  src="img/brand-equity-community-connect.png"
-                  class="flex-shrink-0"
-                  alt=""
-                  height="40px"
-                /></div>
-        <div class="col-9">
-        <h5 class="mission-title fw-bold" style="color: rgb(58, 58, 58);">Brand Equity & Community Connect</h5>
-         <div class="mission-text" style="color: rgb(107, 107, 107);">
-           Be one among the Pan India recognized healthcare brands and the most preferred provider in markets that we operate through patient trust and ambassadorship.
-         </div>
-      </div>
-    </div>
-  </div>
+    <!-- GDDL Mission end -->
 
-  </div>
-<!-- GDDL Mission end -->
-
-<!-- GDDL values Starts -->
- <section class="values my-5">
- <div class="values text-center">
-  <div class="values-body values-bg p-xl-5">
-    <div class="values-area p-3">
-    <h5 class="values-title vission-txt fs-1">GDDL Values</h5>
-    <p class="values-text p-3 fs-5" style="color: #838181;">"Inspired by the Vision of the legends as part of our DNA, we
+    <!-- GDDL values Starts -->
+    <section class="values my-5">
+      <div class="values text-center">
+        <div class="values-body values-bg p-xl-5">
+          <div class="values-area p-3">
+            <h5 class="values-title vission-txt fs-1">GDDL Values</h5>
+            <p class="values-text p-3 fs-5" style="color: #838181;">"Inspired by the Vision of the legends as part of
+              our DNA, we
               constantly strive our best to provide Quality Healthcare at
               Affordable Cost to our patients, as part of a Caring Mission with
               a Global Vision while consistently trying to deliver our brand
               promise "We’ll Treat You Well"</p>
-    <p class="fs-2" style="font-family: 'Murecho', sans-serif;
+            <p class="fs-2" style="font-family: 'Murecho', sans-serif;
 font-family: 'Rubik', sans-serif;font-family: 'Sacramento', cursive;">Ms. Full Name Title</p>
-    <p class="fw-bold fs-6 pb-5" style="color: #666666;" >MD Founder Chairman, GDDL</p>
-        </div>
-   </div>
-  </div>
-</section>
-<!-- GDDL values ends -->
-
-
-<!-- quotes Starts -->
-<div class="quotes container my-5 text-center">
-
-<div class="row justify-content-evenly">
-
-<div class="quote" style="width: 18rem;">
-  <img src="img/albert-einstein.png" class="card-img-top" alt="..." style="width: 7rem;">
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Excellence</h5>
-    <p class="quote-text text-secondary">Surpassing current benchmarks constantly by continually
-                    challenging our ability and skills to take the organization
-                    to greater heights</p>
-    <p class="fw-bold">- Albert Einstein</p>
-  </div>
-</div>
-
-<div class="quote" style="width: 18rem;">
-  <img src="img/mahatma-gandhi.png" class="card-img-top" alt="..." style="width: 7rem;">
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Respect</h5>
-    <p class="quote-text text-secondary">Treating people with utmost dignity, valuing their
-                    contributions and fostering a culture that allow each
-                    individual to rise to their fullest potential</p>
-    <p class="fw-bold">- Mahatma Gandhi</p>
-  </div>
-</div>
-
-<div class="quote" style="width: 18rem;">
-  <img src="img/mother-teresa.png" class="card-img-top" alt="..." style="width: 7rem;">
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Compassion</h5>
-    <p class="quote-text text-secondary">Going beyond boundaries with empathy and care</p>
-    <p class="fw-bold">- Mother Teresa</p>
-  </div>
-</div>
-
-</div>
-
-<div class="row justify-content-evenly">
-<div class="quote" style="width: 18rem;">
-  <img src="img/steve-jobs.png" class="card-img-top" alt="..." style="width: 7rem;" >
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Passion</h5>
-    <p class="quote-text text-secondary">Going the extra mile willingly, with a complete sense of
-                    belongingness and purpose while adding value to our
-                    stakeholders</p>
-    <p class="fw-bold">- Steve Jobs</p>
-  </div>
-</div>
-
-<div class="quote" style="width: 18rem;">
-  <img src="img/nelson-mandela.png" class="card-img-top" alt="..." style="width: 7rem;">
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Integrity</h5>
-    <p class="quote-text text-secondary">Doing the right thing without any compromises and embracing
-                    a higher standard of conduct</p>
-    <p class="fw-bold"> - Nelson Mandela</p>
-  </div>
-</div>
-
-<div class="quote" style="width: 18rem;">
-  <img src="img/sheikh.png" class="card-img-top" alt="..." style="width: 7rem;">
-  <div class="quote-body py-4">
-    <h5 class="quote-title fw-bold">Unity</h5>
-    <p class="quote-text text-secondary"> Harnessing the power of synergy and engaging people for
-                    exponential performance and results</p>
-    <p class="fw-bold">- H.H. Sheikh Zayed Bin</p>
-  </div>
-</div>
-
-</div>
-</div>
-<!-- quotes end -->
-
-<!-- footer start  -->
-<div class="footer text-left">
-  <div class="row container-fluid">
-
-    <div class="col-lg-5 left-col">
-      <img class="p-5" src="img/4.jpg" alt="" srcset="">
-    </div>
-
-
-    <div class="col-lg-7 right-col p-4 mt-lg-4">
-      <div class="row ">
-
-        <div class="col-sm-5 ">
-         <font class="fs-6" id="call"> Call</font>
-          <p  class="fs-3" id="num">01234546789</p>
-          <p class="mt-4 text-white-50" id="time">Monday to Friday: 10am-5pm</br>Weekend: 10am-3pm</p>
-        </div>
-
-        <div class="col-sm">Support
-          <div class="mt-4 lh-lg " >
-            <a class="text-decoration-none text-white-50" href="">Contact</a></br>
-            <a class="text-decoration-none text-white-50" href="">FAQs</a></br>
-            <a class="text-decoration-none text-white-50" href="">Live Chat</a></br>
-            <a class="text-decoration-none text-white-50" href="">Forum</a>
-          </div>
-        </div>
-
-        <div class="col-sm">Products
-          <div class="mt-4 lh-lg " >
-            <a class="text-decoration-none text-white-50" href="">1to1 coaching</a></br>
-            <a class="text-decoration-none text-white-50" href="">Lesson Plans</a></br>
-            <a class="text-decoration-none text-white-50" href="">Meal Plans</a></br>
-            <a class="text-decoration-none text-white-50" href="">Gym Sessions</a>
+            <p class="fw-bold fs-6 pb-5" style="color: #666666;">MD Founder Chairman, GDDL</p>
           </div>
         </div>
       </div>
+    </section>
+    <!-- GDDL values ends -->
 
-      <div class="row mt-4 ">
-        <div class="col-5">
-        <a class="text-light mx-2 col" href=""><i class="fab fa-facebook"></i></a>
-        <a class="text-light mx-2 col" href=""><i class="fab fa-instagram"></i></a>
-        <a class="text-light mx-2 col" href=""><i class="fab fa-twitter"></i></a>
-        <a class="text-light mx-2 col" href=""><i class="fab fa-github"></i></a>
-        <a class="text-light mx-2 col" href=""><i class="fab fa-dribbble"></i></a>
+
+    <!-- quotes Starts -->
+    <div class="quotes container my-5 text-center">
+
+      <div class="row justify-content-evenly">
+
+        <div class="quote" style="width: 18rem;">
+          <img src="img/albert-einstein.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Excellence</h5>
+            <p class="quote-text text-secondary">Surpassing current benchmarks constantly by continually
+              challenging our ability and skills to take the organization
+              to greater heights</p>
+            <p class="fw-bold">- Albert Einstein</p>
+          </div>
+        </div>
+
+        <div class="quote" style="width: 18rem;">
+          <img src="img/mahatma-gandhi.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Respect</h5>
+            <p class="quote-text text-secondary">Treating people with utmost dignity, valuing their
+              contributions and fostering a culture that allow each
+              individual to rise to their fullest potential</p>
+            <p class="fw-bold">- Mahatma Gandhi</p>
+          </div>
+        </div>
+
+        <div class="quote" style="width: 18rem;">
+          <img src="img/mother-teresa.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Compassion</h5>
+            <p class="quote-text text-secondary">Going beyond boundaries with empathy and care</p>
+            <p class="fw-bold">- Mother Teresa</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="quote" style="width: 18rem;">
+          <img src="img/steve-jobs.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Passion</h5>
+            <p class="quote-text text-secondary">Going the extra mile willingly, with a complete sense of
+              belongingness and purpose while adding value to our
+              stakeholders</p>
+            <p class="fw-bold">- Steve Jobs</p>
+          </div>
+        </div>
+
+        <div class="quote" style="width: 18rem;">
+          <img src="img/nelson-mandela.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Integrity</h5>
+            <p class="quote-text text-secondary">Doing the right thing without any compromises and embracing
+              a higher standard of conduct</p>
+            <p class="fw-bold"> - Nelson Mandela</p>
+          </div>
+        </div>
+
+        <div class="quote" style="width: 18rem;">
+          <img src="img/sheikh.png" class="card-img-top" alt="..." style="width: 7rem;">
+          <div class="quote-body py-4">
+            <h5 class="quote-title fw-bold">Unity</h5>
+            <p class="quote-text text-secondary"> Harnessing the power of synergy and engaging people for
+              exponential performance and results</p>
+            <p class="fw-bold">- H.H. Sheikh Zayed Bin</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- quotes end -->
+
+    <!-- footer start  -->
+    <div class="footer text-left">
+      <div class="row container-fluid">
+
+        <div class="col-lg-5 left-col">
+          <img class="p-5" src="img/4.jpg" alt="" srcset="">
+        </div>
+
+
+        <div class="col-lg-7 right-col p-4 mt-lg-4">
+          <div class="row ">
+
+            <div class="col-sm-5 ">
+              <font class="fs-6" id="call"> Call</font>
+              <p class="fs-3" id="num">01234546789</p>
+              <p class="mt-4 text-white-50" id="time">Monday to Friday: 10am-5pm</br>Weekend: 10am-3pm</p>
+            </div>
+
+            <div class="col-sm">Support
+              <div class="mt-4 lh-lg ">
+                <a class="text-decoration-none text-white-50" href="">Contact</a></br>
+                <a class="text-decoration-none text-white-50" href="">FAQs</a></br>
+                <a class="text-decoration-none text-white-50" href="">Live Chat</a></br>
+                <a class="text-decoration-none text-white-50" href="">Forum</a>
+              </div>
+            </div>
+
+            <div class="col-sm">Products
+              <div class="mt-4 lh-lg ">
+                <a class="text-decoration-none text-white-50" href="">1to1 coaching</a></br>
+                <a class="text-decoration-none text-white-50" href="">Lesson Plans</a></br>
+                <a class="text-decoration-none text-white-50" href="">Meal Plans</a></br>
+                <a class="text-decoration-none text-white-50" href="">Gym Sessions</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4 ">
+            <div class="col-5">
+              <a class="text-light mx-2 col" href=""><i class="fab fa-facebook"></i></a>
+              <a class="text-light mx-2 col" href=""><i class="fab fa-instagram"></i></a>
+              <a class="text-light mx-2 col" href=""><i class="fab fa-twitter"></i></a>
+              <a class="text-light mx-2 col" href=""><i class="fab fa-github"></i></a>
+              <a class="text-light mx-2 col" href=""><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+          <hr class="mt-5" style="height:1px;border-width:0;color:rgb(126, 126, 126);">
+          <div class="row">
+            <div class="col-md-10">Privecy Policy Terms & Conditions Returns Policy </div>
+            <div class="col-md">&copy; GDDL</div>
+          </div>
+          <div class="fs-6 col-12 mt-3 text-muted">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Neque cumque ipsa, recusandae officiis itaque, ea, adipisci
+            ipsum quasi sint necessitatibus et doloribus. Velit mollitia
+            fugiat quod dolores impedit vel quos
+          </div>
         </div>
       </div>
-      <hr class="mt-5" style="height:1px;border-width:0;color:rgb(126, 126, 126);">
-      <div class="row">
-        <div class="col-md-10">Privecy Policy Terms & Conditions Returns Policy  </div>
-        <div class="col-md">&copy; GDDL</div>
-      </div>
-      <div class="fs-6 col-12 mt-3 text-muted">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Neque cumque ipsa, recusandae officiis itaque, ea, adipisci
-         ipsum quasi sint necessitatibus et doloribus. Velit mollitia 
-         fugiat quod dolores impedit vel quos
-    </div>
-  </div>
-</div>
-<!-- footer end -->
-    <script src="js/bootstrap.bundle.min.js" defer></script>
-  </body>
+      <!-- footer end -->
+      <script src="js/bootstrap.bundle.min.js" defer></script>
+</body>
+
 </html>
