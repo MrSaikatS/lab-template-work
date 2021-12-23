@@ -8,17 +8,12 @@
   width: 250px;
 }
 .navbar-brand img {
-  width: 50%;
+  width: 40%;
 }
-.navbar-toggler {
+.navbar-toggler-icon {
   color: #04345c;
 }
-#home-menu {
-  height: 40px;
-  width: 70px;
-  background-color: #04345c;
-  color: #fff;
-}
+
 .nav-link {
   font-weight: 700;
   color: #000;
